@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import NoteForm from '../components/NoteForm';
 import NoteItem from '../components/NoteItem';
 
-const API_URL = 'http://localhost:5000/api/notes';
+const API_URL = 'https://mern-notes-app-zubr.onrender.com/api/notes';
 
 export default function Home() {
   const [notes, setNotes] = useState([]);
